@@ -1,3 +1,7 @@
+/* -------------------- */
+/* HEADER STYLES */
+/* -------------------- */
+
 body {
     font-family: Helvetica, sans-serif;
 }
@@ -8,7 +12,93 @@ header {
 }
 
 nav {
-    width: 960;
+    width: 960px;
     margin: 0px auto;
     /* border: 3px solid yellow; */
+}
+
+nav img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+nav li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: #888;
+}
+
+/* --------------------
+MAIN STYLES
+-------------------- */
+
+main {
+    /* border: 2px dashed orange; */
+    width: 960px;
+    margin: 30px auto;
+}
+
+main li {
+    float: left;
+    margin: 30px 30px 30px 0px;
+}
+
+main li:last-child {
+    margin-right: 0px;
+}
+
+img {
+    float: left;
+}
+
+section div {
+    /* border: 3px solid orange; */
+    float: left;
+    width: calc(50% - 30px);
+    margin-left: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+section p {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    overflow: auto;
+    height: 314px;
+}
+
+button {
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    background: #000;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: 350ms;
+    cursor: pointer;
+}
+
+button:hover {
+    background: green;
+}
+
+/* --------------------
+FOOTER STYLES
+-------------------- */
+
+footer {
+    background: #444;
+    height: 150px;
+    margin-top: 30px;
+    clear: both;
 }
